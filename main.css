@@ -4,21 +4,21 @@ body {
 
 /* header */
 
-#header {
+/* #header {
     display: flex;
     flex-direction: row;
     background-color: grey;
     padding: 5px;
     height: 80px;
-}
+} */
 
 /* bodySection */
 
-#bodySection {
+/* #bodysection {
     background-color: skyblue;
     padding: 5px;
     height: 250px;
-}
+} */
 
 .error-message {
     color: red;
@@ -27,7 +27,7 @@ body {
 
 /* contactSection */
 
-#contactSection {
+#contactsection {
     background-color: #fff;
     height: 100px;
     padding: 5px;
@@ -75,7 +75,7 @@ body {
 
 /* imageSection */
 
-#imageSection {
+#imagesection {
     background-color: #f3f3f3;
     padding: 5px;
     min-height: 100px;
@@ -101,7 +101,7 @@ img {
 
 /* footerSection */
 
-#footerSection {
+#footersection {
     background-color: white;
     padding: 5px;
     height: 250px;
