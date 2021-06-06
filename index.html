@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+    <header class="header_main">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://www.greenlightplanet.com/wp-content/uploads/2018/08/new-logo.png"
+                            alt="logo" />
+                    </a>
+                </div>
+                <div class="header_menu">
+                    <div class="header_menu_data">
+                        <div class="header_toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#bodySection">Form</a></li>
+                            <li><a href="#contactSection">Contact</a></li>
+                            <li><a href="#imageSection">Images</a></li>
+                            <li><a href="#footerSection">Footer</a></li>
+                        </ul>
+                        <!-- <nav id="body-nav">
+                            <ul class="horizontal-list text-align nav-menu">
+                                <li> <a href="#">Home</a></li>
+                                <li> <a href="#about">About</a></li>
+                                <li> <a href="#skills">Skills</a></li>
+                                <li> <a href="#experiences">Experiences</a></li>
+                                <li> <a href="#education">Education</a></li>
+                                <li> <a href="#portfolio">Portfolio</a></li>
+                                <li> <a href="#contactSection">ContactSection</a></li>
+                            </ul>
+                        </nav> -->
+                        <!-- <nav>
+                            <a href="#header">Home</a>
+                            <a href="#bodySection">Form</a>
+                            <a href="#contactSection">Contact</a>
+                            <a href="#imageSection">Images</a>
+                            <a href="#footerSection">Footer</a>
+                        </nav> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section bg_gey">
+        <div class="container">
+            <form id='userForm'>
+                <div class="form_wrap">
+
+                    <div class="form_single">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <br><span class='error-message' id='email-error'></span><br>
+                    </div>
+                    <div class="form_single">
+                        <label for="userName">Username:</label>
+                        <input type="text" id="userName" name="userName">
+                        <br><span class='error-message' id='username-error'></span><br>
+                    </div>
+                    <div class="form_single">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                        <br><span class='error-message' id='password-error'></span><br>
+
+                    </div>
+                    <div class="form_single">
+                        <label for="resetPassword">Reset Password:</label>
+                        <input type="text" id="resetPassword" name="resetPassword">
+                        <br><span class='error-message' id='password-error'></span><br>
+
+                    </div>
+                    <div class="form_btn">
+                        <input type="button" value="Submit" id="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- <div id='bodySection'>
+        <form id='userForm'>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br><span class='error-message' id='email-error'></span><br>
+
+            <label for="userName">Username:</label>
+            <input type="text" id="userName" name="userName">
+            <br><span class='error-message' id='username-error'></span><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br><span class='error-message' id='password-error'></span><br>
+
+            <label for="resetPassword">Reset Password:</label>
+            <input type="text" id="resetPassword" name="resetPassword">
+            <br><span class='error-message' id='password-error'></span><br>
+
+            <input type="button" value="Submit" id="submit">
+        </form>
+    </div> -->
+
+    <div id='contactSection'>
+        <Contact>
+            <div>Name: Ujjwal Sharma</div>
+            <div>Address: Mohali</div>
+        </Contact>
+        <button id="myBtn">Open Modal</button>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="form_wrap">
+
+                    <div class="form_single">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email">
+                        <br><span class='error-message' id='email-error'></span><br>
+                    </div>
+                    <div class="form_single">
+                        <label for="userName">Username:</label>
+                        <input type="text" id="userName" name="userName">
+                        <br><span class='error-message' id='username-error'></span><br>
+                    </div>
+                    <div class="form_single">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                        <br><span class='error-message' id='password-error'></span><br>
+
+                    </div>
+                    <div class="form_single">
+                        <label for="resetPassword">Reset Password:</label>
+                        <input type="text" id="resetPassword" name="resetPassword">
+                        <br><span class='error-message' id='password-error'></span><br>
+
+                    </div>
+                    <div class="form_btn">
+                        <input type="button" value="Submit" id="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id='imageSection'>
+        <input type="text" id="search" name="search" placeholder="search"><br><br>
+        <div id="imageResult">
+
+        </div>
+    </div>
+
+    <footer class="header_main">
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="https://www.greenlightplanet.com/wp-content/uploads/2018/08/new-logo.png"
+                            alt="logo" />
+                    </a>
+                </div>
+                <div class="header_menu">
+                    <div class="header_menu_data">
+                        Copyright @2021 | Designed by Ujjwal Sharma
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
