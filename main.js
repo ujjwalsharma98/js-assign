@@ -136,7 +136,7 @@ const debounce = (func, delay) => {
     }
 }
 
-document.getElementById("search").addEventListener('input', debounce(searchPhotos, 3000))
+document.getElementById("search").addEventListener('input', debounce(searchPhotos, 2000))
 
 // image section
 function searchPhotos() {
